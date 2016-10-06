@@ -504,7 +504,7 @@ function calculateVariables() {
     values.Add2 = values.A2 * (values.y2 - values.ybar) * (values.y2 - values.ybar);
     values.Add3 = values.A3 * (values.y3 - values.ybar) * (values.y3 - values.ybar);
     values.Ixc1 = values.Ixo1 + values.Add1;
-    values.Ixc2 = Values.Ixo2 + values.Add2;
+    values.Ixc2 = values.Ixo2 + values.Add2;
     values.Ixc3 = values.Ixo3 + values.Add3;
 
     values.Iyc1 = (1/12) * values.tt * values.Bt * values.Bt * values.Bt;
