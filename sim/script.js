@@ -485,8 +485,8 @@ function calculateVariables() {
     values.A1 = values.Bt * values.tt;
     values.A2 = values.Hw * values.tw;
     values.A3 = values.Bb * values.tb;
-    values.y1 = values.tb + values.tw + 0.5 * values.tt;
-    values.y2 = values.tb + 0.5*values.tw;
+    values.y1 = values.tb + values.Hw + 0.5 * values.tt;
+    values.y2 = values.tb + 0.5*values.Hw;
     values.y3 = 0.5*values.tb;
     values.Ay1 = values.A1 * values.y1;
     values.Ay2 = values.A2 * values.y2;
